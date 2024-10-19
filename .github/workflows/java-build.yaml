@@ -3,17 +3,14 @@ on:
         inputs:
             sonar-cloud-enabled:
                 description: 'Executar ou não sonar scanner'
-                default: true
                 required: true
                 type: boolean
             owasp-zap-enabled:
                 description: 'Executar ou não dependency check'
-                default: true
                 required: true
                 type: boolean
             snyk-enabled:
                 description: 'Executar ou não snyk'
-                default: true
                 required: true
                 type: boolean
 
