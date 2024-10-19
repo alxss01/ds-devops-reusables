@@ -4,15 +4,15 @@ on:
             sonar-cloud-enabled:
                 description: 'Executar ou não sonar scanner'
                 required: true
-                type: boolean
+                type: string
             owasp-zap-enabled:
                 description: 'Executar ou não dependency check'
                 required: true
-                type: boolean
+                type: string
             snyk-enabled:
                 description: 'Executar ou não snyk'
                 required: true
-                type: boolean
+                type: string
 
 jobs:
     build:
